@@ -1,0 +1,44 @@
+//applied to each component we dont have to do it again and again
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;//inherit from parent that is lightgray
+}
+
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.course
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        //if u want animation write in component not at the place of style
+        
+    }
+}
