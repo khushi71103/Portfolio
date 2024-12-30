@@ -61,7 +61,7 @@ const Services = () => {
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>React</h2>
+          <h2>React JS</h2>
           <p>
             React is a JavaScript library developed by Facebook for building
             user interfaces, known for its component-based architecture. It
@@ -88,12 +88,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>HTML/CSS/JS</h2>
+          <h2>Next JS</h2>
           <p>
-            HTML is the standard markup language for creating web pages,
-            defining the structure and content of a webpage .CSS is used for
-            styling web pages, appearance, and design.
-            JavaScript is a programming language used in web pages to add interactivity and dynamic behavior to websites.
+          Next.js is a powerful React framework designed for building fast, SEO-friendly, 
+          and scalable web applications. It supports server-side rendering (SSR), 
+          static site generation (SSG), and client-side rendering (CSR), offering flexibility 
+          for different use cases. With built-in routing, API handling, and performance 
+          optimizations, it simplifies the development process. Next.js also integrates 
+          well with TypeScript, making it a popular choice for modern web development.
           </p>
           <button>Go</button>
         </motion.div>
@@ -101,7 +103,8 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>MYSQL/MONGODB</h2>
+          <h2>MYSQL/MONGODB/
+            POSTGRESSQL</h2>
           <p>
             MySQL is a popular open-source relational database known for its
             structured data storage, while MongoDB is a NoSQL database that
